@@ -2,5 +2,11 @@ package com.offcn.service;
 
 public interface HelloService {
 
-    public String sayHello(String name);
+    public String sayHellos(String name1);
+
+    public String add();
+
+    public String update();
+
+    public String delete();
 }
